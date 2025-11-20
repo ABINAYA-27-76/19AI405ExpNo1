@@ -42,6 +42,7 @@
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 
 ### Program:
+```
 import random
 
 class HealthMonitoringAgent:
@@ -92,7 +93,7 @@ if __name__ == "__main__":
     health_monitoring_agent.actuators = health_actuators
     
     health_monitoring_agent.monitor_health()
-
+```
 ### Output:
 ![WhatsApp Image 2025-09-08 at 15 57 54_52c73d41](https://github.com/user-attachments/assets/35da7ce5-5968-43a0-b65e-b4a7d153a4b0)
 
